@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+	<groupId>com.gehc.platform</groupId>
+	<artifactId>micro-service-parent</artifactId>
+	<version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ge.med.xray.protocoldb</groupId>
+    <artifactId>protocoldb</artifactId>
+    <packaging>pom</packaging>
+    <name>protocoldb</name>
+    <version>1.0.0</version>
+    <modules>
+    	<module>protocoldb-api</module>
+    	<module>protocoldb-core</module>
+    	<module>protocoldb-rest</module>
+    </modules>
+    <repositories>
+        <repository>
+            <id>snapshots</id>
+			<name>maven-imgplatform-release</name>
+            <url>https://hc-us-east-aws-artifactory.cloud.health.ge.com/artifactory/maven-imgplatform-all/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <snapshots />
+            <id>snapshots</id>
+            <name>maven-imgplatform-release</name>
+            <url>https://hc-us-east-aws-artifactory.cloud.health.ge.com/artifactory/maven-imgplatform-all/</url>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

@@ -1,0 +1,3 @@
+#!/bin/bash
+export MAVEN_HOME="/myworkspace/apache-maven-3.6.3/"
+export JAVA_HOME="/myworkspace/IUI/venus/import/jdk1.8.0_72/"
